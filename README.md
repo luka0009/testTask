@@ -2,6 +2,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+### To work in development mode, after installing the packages either: 
+  add ``` DATABASE_URL = YOUR_MONGODB_URL``` in ```.env``` file 
+    
+  #### OR
+    
+  change ```const url = "api/users"``` to ```const url = https://test-task-76bokmzia-luka0009.vercel.app/api/users``` in ```services/users.ts``` file
+  ## or view deployed website [here](https://test-task-76bokmzia-luka0009.vercel.app/)
 First, run the development server:
 
 ```bash
